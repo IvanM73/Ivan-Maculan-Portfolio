@@ -1,0 +1,49 @@
+{
+  "documentTitle": "Ivan Maculan - Portfolio Professionale",
+  "language": {
+    "label": "Lingua",
+    "options": {
+      "eng": "Inglese",
+      "it": "Italiano"
+    }
+  },
+  "header": {
+    "name": "Ivan Maculan",
+    "title": "<strong>Senior Program &amp; Engineering Manager | Product Leader | Technical Strategist</strong>",
+    "contact": "Torino, Italia | <a href=\"mailto:ivan.maculan@gmail.com\">ivan.maculan@gmail.com</a> | <a href=\"https://www.linkedin.com/in/ivanmaculan\" target=\"_blank\">LinkedIn</a>"
+  },
+  "about": {
+    "title": "Chi sono",
+    "body": "<p>Sono un <strong>Program &amp; Engineering Manager</strong> con oltre 20 anni di esperienza nella guida di team globali, nella definizione della strategia tecnica e nella consegna di piattaforme enterprise su larga scala. La mia carriera unisce <strong>strategia di prodotto, architettura software e program delivery</strong>, garantendo che iniziative complesse si traducano in valore di business concreto.</p><p>Lavoro al confine tra <strong>tecnologia e business</strong>: coordino team interfunzionali, faccio mentoring agli ingegneri e mi interfaccio direttamente con stakeholder C-level e clienti internazionali. Combino <strong>visione strategica</strong> e <strong>esecuzione operativa</strong>, allineando l'eccellenza tecnica con gli obiettivi aziendali.</p><p>I miei ambiti principali includono <strong>architetture cloud-native</strong>, <strong>programmi di trasformazione digitale</strong> e <strong>piattaforme di messaggistica sicura</strong>. Inoltre sto ampliando le competenze in <strong>Intelligenza Artificiale</strong> attraverso formazione continua e sperimentazione. Applico quotidianamente l'AI per migliorare l'efficienza nella gestione dei progetti, supportare il decision-making ed esplorare soluzioni innovative, mantenendo un approccio responsabile ed etico.</p>"
+  },
+  "roles": {
+    "title": "Ruoli Principali",
+    "list": "<ul><li><strong>Senior Technical Program Manager &amp; Engineering Manager</strong> – Synchronoss (2013–2025)</li><li><strong>Product Strategist &amp; Solution Architect</strong> – Critical Path (2005–2013)</li><li><strong>Solution Designer per Piattaforme di Messaggistica</strong> – Critical Path (1999–2005)</li></ul>"
+  },
+  "products": {
+    "title": "Prodotti di Punta",
+    "list": "<ul><li><strong>Modular Provisioning Solution</strong> – sistema scalabile per onboarding e gestione</li><li><strong>Delegated Admin Console</strong> – console di amministrazione multi-tenant personalizzabile</li><li><strong>Piattaforma di Intercettazione Legale</strong> – soluzione di compliance integrata negli ambienti telco</li><li><strong>Business Analytics Dashboard</strong> – insight data-driven su utilizzo e operazioni</li><li><strong>Posta Elettronica Certificata (PEC)</strong> – sistema email sicuro e conforme alle normative</li></ul>"
+  },
+  "projects": {
+    "title": "Progetti Chiave",
+    "content": "<h3>Progetti Tecnologici e di Infrastruttura</h3><div class=\"project\"><p><strong>Migrazione Cloud &amp; Infrastruttura Ibrida</strong></p><ul><li>Migrazione di workload di messaggistica su larga scala in ambienti ibridi AWS/Azure/GCP.</li><li>Definizione di strategie di resilienza, scalabilità e ottimizzazione dei costi (multi-region, autoscaling, IaC).</li></ul></div><div class=\"project\"><p><strong>Trasformazione DevOps &amp; Continuous Delivery</strong></p><ul><li>Introduzione di pipeline CI/CD a livello enterprise con test automatici e containerizzazione.</li><li>Miglioramento dell'affidabilità dei rilasci e riduzione dei cicli di delivery in team distribuiti.</li></ul></div><div class=\"project\"><p><strong>Sicurezza Enterprise &amp; Compliance</strong></p><ul><li>Implementazione di SSO, MFA, PKI e gestione dati conforme al GDPR per piattaforme enterprise.</li><li>Rafforzamento dei servizi e standardizzazione delle baseline di sicurezza tra prodotti e clienti.</li></ul></div><div class=\"project\"><p><strong>Produttività &amp; Knowledge potenziate dall'AI</strong></p><ul><li>Prototipazione di assistenti basati su RAG per accelerare supporto, documentazione e delivery.</li><li>Integrazione di pratiche di prompt engineering nei flussi di lavoro di prodotto e ingegneria.</li></ul></div><h3>Innovazione Cliente &amp; Prodotto</h3><div class=\"project\"><p><strong>Piattaforme Webmail Cloud-native per Telco</strong> – BT, Bell Canada, KDDI, Fastweb</p><ul><li>Architettura a microservizi su AWS, Azure, GCP; UX conforme WCAG; sicurezza by design.</li><li>Delivery agile con CI/CD e team di ingegneria distribuiti.</li></ul></div><div class=\"project\"><p><strong>Iniziative di Trasformazione Digitale</strong></p><ul><li>Personalizzazione di webmail per clienti enterprise.</li><li>Integrazione CRM con le piattaforme utente.</li><li>Integrazione e analisi del monitoring di piattaforma.</li></ul></div><div class=\"project\"><p><strong>Piattaforme Enterprise di Messaggistica &amp; Provisioning</strong></p><ul><li>Delegated admin, intercettazione legale, PEC e flussi di provisioning scalabili.</li><li>API e integrazioni per il riuso su più clienti Tier-1.</li></ul></div>"
+  },
+  "competencies": {
+    "title": "Competenze Chiave",
+    "list": "<ul><li><strong>Leadership &amp; Delivery</strong>: Leadership tecnica, gestione team Agile, coinvolgimento stakeholder, mentoring, rimozione dei blocker, performance management.</li><li><strong>Sviluppo Software</strong>: Java (Full Stack), Node.js, React, HTML/CSS/JS, Microservizi, REST API.</li><li><strong>Cloud &amp; DevOps</strong>: AWS, Azure, Google Cloud Platform (GCP), Docker, Virtualizzazione, Container, Infrastructure as Code (IaC), CI/CD (Jira, Bamboo, Git, Jenkins), Monitoring &amp; Performance Testing.</li><li><strong>Architettura &amp; Sicurezza</strong>: Architetture scalabili e sicure, SSO, MFA, PKI, conformità GDPR, cifratura (AES, 3DES).</li><li><strong>Testing &amp; Qualità</strong>: TDD, test unitari/integrati, best practice QA, monitoraggio continuo della qualità.</li><li><strong>Gestione Cliente</strong>: Relazione diretta, pre-sales, demo tecniche, personalizzazione di soluzioni, crescita a lungo termine degli account, collegamento tra esigenze del cliente ed esecuzione tecnica.</li><li><strong>Product Strategy</strong>: Soluzioni riusabili pronte per il mercato, innovazione di prodotto, supporto go-to-market, allineamento tra visione business ed execution tecnica.</li><li><strong>AI &amp; Tecnologie Emergenti</strong>: Generative AI, Prompt Engineering, architetture RAG, fondamenti Web3 e Blockchain, adozione etica dell'AI.</li></ul>"
+  },
+  "ai": {
+    "title": "🤖 AI Enthusiast",
+    "body": "<p>Negli ultimi anni ho approfondito le mie competenze in <span class=\"highlight\">Intelligenza Artificiale</span>, concentrandomi su come integrare l'AI nelle strategie di prodotto e nelle piattaforme enterprise. Il mio percorso include:</p><ul><li>Sperimentazione con <strong>Generative AI</strong> per project management, innovazione di prodotto e customer engagement.</li><li>Sviluppo di competenze in <strong>Prompt Engineering</strong> e <strong>fine-tuning di LLM</strong> per esigenze business specifiche.</li><li>Esplorazione della <strong>Retrieval-Augmented Generation (RAG)</strong> per migliorare la gestione della conoscenza e le decisioni in azienda.</li><li>Utilizzo dell'AI per <strong>automazione DevOps</strong> e <strong>ambienti cloud-native</strong>.</li><li>Promozione di un'adozione etica dell'AI, con attenzione a compliance e human-centered design.</li></ul><p>Questo percorso riflette la mia passione per l'apprendimento continuo e l'impegno ad applicare l'AI in modo responsabile per massimizzare il valore per aziende e utenti finali.</p><h3>Certificazioni Correlate</h3><ul><li><a href=\"https://www.coursera.org/account/accomplishments/verify/MD970U5NTV03\" target=\"_blank\">Generative AI for Project Managers – Coursera (2025)</a></li><li><a href=\"https://www.coursera.org/account/accomplishments/verify/6CJCCHTH7B8N\" target=\"_blank\">OpenAI GPTs: Create Your Custom GPTs – Coursera (2025)</a></li><li><a href=\"https://www.coursera.org/account/accomplishments/verify/8OO559LXUODD\" target=\"_blank\">AWS Cloud Technical Essentials – Coursera (2025)</a></li><li><a href=\"https://www.coursera.org/account/accomplishments/verify/6CJCCHTH7B8N\" target=\"_blank\">LLM Engineering with Retrieval-Augmented Generation (RAG) – Coursera (2025)</a></li></ul>"
+  },
+  "recommendations": {
+    "title": "Raccomandazioni",
+    "body": "<p>Nel corso della mia carriera ho ricevuto numerose testimonianze da colleghi, manager e clienti in tutto il mondo. I punti principali includono:</p><ul><li><strong>Leadership &amp; Teamwork</strong>: Professionalità, dedizione e capacità di gestire progetti complessi con stakeholder globali (Josh Cohen, Ronan Kelly).</li><li><strong>Competenza Tecnica</strong>: Profonda conoscenza di architetture software, API scalabili e problem solving con soluzioni innovative (Atul Bhatia, Jaikishan Khatwani).</li><li><strong>Relazione con il Cliente</strong>: Comunicazione chiara, ponte tra esigenze del cliente e delivery tecnica, risultati di alta qualità (Harrison Bliss, Mike Mohammed).</li><li><strong>Collaborazione &amp; Mentoring</strong>: Capacità di ascolto, motivazione dei team e guida dei colleghi con fiducia ed empatia (Francesco D'Agostino, Gianluca Baragiotta, Simón de Frosterus, Patrick Gnägi).</li></ul><p>Le raccomandazioni complete sono disponibili sul mio <a href=\"https://www.linkedin.com/in/ivanmaculan/details/recommendations/\" target=\"_blank\">profilo LinkedIn</a>.</p>"
+  },
+  "customers": {
+    "title": "Clienti"
+  },
+  "footer": {
+    "text": "&copy; 2025 Ivan Maculan – Tutti i diritti riservati"
+  }
+}

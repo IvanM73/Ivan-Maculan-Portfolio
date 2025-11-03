@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ivan Maculan - Professional Portfolio</title>
+  <title></title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -17,7 +17,12 @@
       background-color: #005288;
       color: #fff;
       padding: 2rem;
+      padding-top: 3.5rem;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
     }
     header h1 {
       margin: 0;
@@ -25,6 +30,9 @@
     }
     header p {
       margin: 0.5rem 0;
+    }
+    header a {
+      color: #a9d6ff;
     }
     section {
       max-width: 1000px;
@@ -74,160 +82,90 @@
       background-color: #eaeaea;
       font-size: 0.9rem;
     }
+    .lang-picker {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+    .lang-picker label {
+      font-weight: 600;
+      color: #fff;
+    }
+    .lang-picker select {
+      border-radius: 6px;
+      border: none;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 600px) {
+      header {
+        align-items: stretch;
+        padding-top: 2rem;
+      }
+      .lang-picker {
+        position: static;
+        align-self: stretch;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Ivan Maculan</h1>
-    <p><strong>Senior Program & Engineering Manager | Product Leader | Technical Strategist</strong></p>
-    <p>Turin, Italy | <a href="mailto:ivan.maculan@gmail.com" style="color:#a9d6ff;">ivan.maculan@gmail.com</a> | <a href="https://www.linkedin.com/in/ivanmaculan" target="_blank" style="color:#a9d6ff;">LinkedIn</a></p>
+    <div class="lang-picker">
+      <label for="language-selector" data-i18n="language.label"></label>
+      <select id="language-selector">
+        <option value="eng" data-i18n="language.options.eng"></option>
+        <option value="it" data-i18n="language.options.it"></option>
+      </select>
+    </div>
+    <h1 data-i18n="header.name"></h1>
+    <p data-i18n-html="header.title"></p>
+    <p data-i18n-html="header.contact"></p>
   </header>
 
-<section>
-<h2>About Me</h2>
-<p>I am a seasoned <strong>Program & Engineering Manager</strong> with over 20 years of experience leading global teams, shaping technical strategy, and delivering large-scale enterprise platforms. My career bridges <strong>product strategy, software architecture, and program delivery</strong>, consistently ensuring that complex initiatives translate into tangible business value.</p>
-<p>I thrive at the intersection of <strong>technology and business</strong>: guiding cross-functional teams, mentoring engineers, and engaging directly with C-level stakeholders and international clients. My approach combines <strong>strategic vision</strong> with <strong>hands-on execution</strong>, enabling me to align technical excellence with business outcomes.</p>
-<p>Key areas of focus include <strong>cloud-native architectures</strong>, <strong>digital transformation programs</strong>, and <strong>secure messaging platforms</strong>. In addition, I am actively building knowledge in <strong>Artificial Intelligence</strong>, through continuous training and experimentation. I apply AI daily to enhance project management efficiency, improve decision-making, and explore innovative approaches, while staying committed to responsible and ethical adoption.</p>
-</section>
-
-
   <section>
-    <h2>Key Roles</h2>
-    <ul>
-      <li><strong>Senior Technical Program Manager & Engineering Manager</strong> – Synchronoss (2013–2025)</li>
-      <li><strong>Product Strategist & Solution Architect</strong> – Critical Path (2005–2013)</li>
-      <li><strong>Solution Designer for Messaging Platforms</strong> – Critical Path (1999–2005)</li>
-    </ul>
+    <h2 data-i18n="about.title"></h2>
+    <div data-i18n-html="about.body"></div>
   </section>
 
   <section>
-    <h2>Flagship Products</h2>
-    <ul>
-      <li><strong>Modular Provisioning Solution</strong> – scalable onboarding and management system</li>
-      <li><strong>Delegated Admin Console</strong> – customizable multi-tenant administration tool</li>
-      <li><strong>Legal Interception Platform</strong> – compliance solution integrated with telco environments</li>
-      <li><strong>Business Analytics Dashboard</strong> – data-driven insights for customer usage and operations</li>
-      <li><strong>Posta Elettronica Certificata (PEC)</strong> – secure, legally-compliant email system</li>
-    </ul>
+    <h2 data-i18n="roles.title"></h2>
+    <div data-i18n-html="roles.list"></div>
   </section>
 
   <section>
-<h2>Key Projects</h2>
-
-
-<h3>Technology & Infrastructure Projects</h3>
-<div class="project">
-<p><strong>Cloud Migration & Hybrid Infrastructure</strong></p>
-<ul>
-<li>Migrated large-scale messaging workloads to AWS/Azure/GCP hybrid environments.</li>
-<li>Defined resilience, scalability and cost-optimization strategies (multi-region, autoscaling, IaC).</li>
-</ul>
-</div>
-
-
-<div class="project">
-<p><strong>DevOps & Continuous Delivery Transformation</strong></p>
-<ul>
-<li>Introduced organization-wide CI/CD pipelines with automated testing and containerization.</li>
-<li>Improved release reliability and shortened delivery cycles across distributed teams.</li>
-</ul>
-</div>
-
-
-<div class="project">
-<p><strong>Enterprise Security & Compliance</strong></p>
-<ul>
-<li>Implemented SSO, MFA, PKI and GDPR-compliant data handling for enterprise platforms.</li>
-<li>Hardened services and standardized security baselines across products and clients.</li>
-</ul>
-</div>
-
-
-<div class="project">
-<p><strong>AI-powered Productivity & Knowledge</strong></p>
-<ul>
-<li>Prototyped RAG-based assistants to accelerate support, documentation and delivery tasks.</li>
-<li>Embedded prompt-engineering practices within product and engineering workflows.</li>
-</ul>
-</div>
-
-
-<h3>Customer & Product Innovation</h3>
-<div class="project">
-<p><strong>Cloud-native Webmail Platforms for Telcos</strong> – BT, Bell Canada, KDDI, Fastweb</p>
-<ul>
-<li>Microservices architecture on AWS, Azure, GCP; WCAG-compliant UX; secure-by-design.</li>
-<li>Agile delivery with CI/CD and cross-geo engineering teams.</li>
-</ul>
-</div>
-
-
-<div class="project">
-<p><strong>Digital Transformation Initiatives</strong></p>
-<ul>
-<li>Webmail customization for enterprise customers.</li>
-<li>CRM integration with user platforms.</li>
-<li>Platform monitoring integration & analysis.</li>
-</ul>
-</div>
-
-
-<div class="project">
-<p><strong>Enterprise Messaging & Provisioning Systems</strong></p>
-<ul>
-<li>Delegated admin, legal interception, certified email (PEC) and scalable provisioning flows.</li>
-<li>APIs and integrations enabling reuse across multiple Tier‑1 clients.</li>
-</section>
-
-<section>
-<h2>Core Competencies</h2>
-<ul>
-<li><strong>Leadership & Delivery</strong>: Technical leadership, Agile team management, stakeholder engagement, mentoring, removing blockers, performance management.</li>
-<li><strong>Software Development</strong>: Java (Full Stack), Node.js, React, HTML/CSS/JS, Microservices, REST APIs.</li>
-<li><strong>Cloud & DevOps</strong>: AWS, Azure, Google Cloud Platform (GCP), Docker, Virtualization, Containers, Infrastructure as Code (IaC), CI/CD (Jira, Bamboo, Git, Jenkins), Monitoring & Performance Testing.</li>
-<li><strong>Architecture & Security</strong>: Scalable and secure architectures, SSO, MFA, PKI, GDPR compliance, encryption (AES, 3DES).</li>
-<li><strong>Testing & Quality</strong>: TDD, unit/integration testing, QA best practices, continuous quality monitoring.</li>
-<li><strong>Client Management</strong>: Direct engagement, pre-sales, technical demos, solution customization, long-term account growth, bridging customer needs and technical execution.</li>
-<li><strong>Product Strategy</strong>: Market-ready reusable solutions, product innovation, go-to-market support, aligning business vision with technical execution.</li>
-<li><strong>AI & Emerging Tech</strong>: Generative AI, Prompt Engineering, RAG architectures, Web3 and Blockchain fundamentals, ethical AI adoption.</li>
-</ul>
-</section>
-
-  <section>
-    <h2>🤖 AI Enthusiast</h2>
-    <p>In recent years I have deepened my knowledge of <span class="highlight">Artificial Intelligence</span>, focusing on how to integrate AI into real-world product strategies and enterprise platforms. My journey includes:</p>
-    <ul>
-      <li>Experimenting with <strong>Generative AI</strong> for project management, product innovation, and customer engagement.</li>
-      <li>Developing skills in <strong>Prompt Engineering</strong> and <strong>LLM fine-tuning</strong> for specialized business needs.</li>
-      <li>Exploring <strong>Retrieval-Augmented Generation (RAG)</strong> to improve enterprise knowledge management and decision-making.</li>
-      <li>Leveraging AI in <strong>DevOps automation</strong> and <strong>cloud-native environments</strong>.</li>
-      <li>Building awareness on ethical AI adoption, compliance, and human-centered design.</li>
-    </ul>
-    <p>This evolution reflects my passion for continuous learning and my commitment to applying AI responsibly to maximize value for businesses and end users.</p>
-
-    <h3>Related Certifications</h3>
-    <ul>
-      <li><a href="https://www.coursera.org/account/accomplishments/verify/MD970U5NTV03" target="_blank">Generative AI for Project Managers – Coursera (2025)</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/verify/6CJCCHTH7B8N" target="_blank">OpenAI GPTs: Create Your Custom GPTs – Coursera (2025)</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/verify/8OO559LXUODD" target="_blank">AWS Cloud Technical Essentials – Coursera (2025)</a></li>
-      <li><a href="https://www.coursera.org/account/accomplishments/verify/6CJCCHTH7B8N" target="_blank">LLM Engineering with Retrieval-Augmented Generation (RAG) – Coursera (2025)</a></li>
-    </ul>
+    <h2 data-i18n="products.title"></h2>
+    <div data-i18n-html="products.list"></div>
   </section>
 
   <section>
-  <h2>Recommendations</h2>
-  <p>Throughout my career, I have received strong endorsements from colleagues, managers, and clients worldwide. Key highlights include:</p>
-  <ul>
-  <li><strong>Leadership & Teamwork</strong>: Recognized for professionalism, dedication, and the ability to manage complex projects across global stakeholders (Josh Cohen, Ronan Kelly).</li>
-  <li><strong>Technical Expertise</strong>: Praised for deep knowledge in software architecture, scalable APIs, and problem-solving with innovative solutions (Atul Bhatia, Jaikishan Khatwani).</li>
-  <li><strong>Client Engagement</strong>: Endorsed for clear communication, bridging customer requirements with technical delivery, and ensuring high-quality results (Harrison Bliss, Mike Mohammed).</li>
-  <li><strong>Collaboration & Mentoring</strong>: Appreciated for listening skills, ability to motivate teams, and guiding colleagues with confidence and empathy (Francesco D’Agostino, Gianluca Baragiotta, Simón de Frosterus, Patrick Gnägi).</li>
-  </ul>
-  <p>You can read the full recommendations directly on my <a href="https://www.linkedin.com/in/ivanmaculan/details/recommendations/" target="_blank">LinkedIn profile</a>.</p>
+    <h2 data-i18n="projects.title"></h2>
+    <div data-i18n-html="projects.content"></div>
   </section>
+
   <section>
-    <h2>Customers</h2>
+    <h2 data-i18n="competencies.title"></h2>
+    <div data-i18n-html="competencies.list"></div>
+  </section>
+
+  <section>
+    <h2 data-i18n="ai.title"></h2>
+    <div data-i18n-html="ai.body"></div>
+  </section>
+
+  <section>
+    <h2 data-i18n="recommendations.title"></h2>
+    <div data-i18n-html="recommendations.body"></div>
+  </section>
+
+  <section>
+    <h2 data-i18n="customers.title"></h2>
     <div class="logos">
       <img src="assets/logos/bt.png" alt="British Telecom" loading="lazy" style="height:50px; object-fit:contain;">
       <img src="assets/logos/Bell_Canada.svg" alt="Bell Canada" loading="lazy" style="height:50px; object-fit:contain;">
@@ -249,9 +187,99 @@
     </div>
   </section>
 
-  <footer>
-    &copy; 2025 Ivan Maculan – All rights reserved
-  </footer>
+  <footer data-i18n-html="footer.text"></footer>
 
+  <script>
+    (function() {
+      const supportedLanguages = {
+        eng: { file: 'eng.json', locale: 'en' },
+        it: { file: 'it.json', locale: 'it' }
+      };
+      const defaultLanguage = 'eng';
+      const languageSelector = document.getElementById('language-selector');
+      let currentLanguage = defaultLanguage;
+
+      function getNestedValue(source, path) {
+        return path.split('.').reduce((acc, key) => (acc && acc[key] !== undefined ? acc[key] : undefined), source);
+      }
+
+      function applyTranslations(translations) {
+        const textElements = document.querySelectorAll('[data-i18n]');
+        textElements.forEach((element) => {
+          const key = element.getAttribute('data-i18n');
+          const value = getNestedValue(translations, key);
+          if (typeof value === 'string') {
+            element.textContent = value;
+          }
+        });
+
+        const htmlElements = document.querySelectorAll('[data-i18n-html]');
+        htmlElements.forEach((element) => {
+          const key = element.getAttribute('data-i18n-html');
+          const value = getNestedValue(translations, key);
+          if (typeof value === 'string') {
+            element.innerHTML = value;
+          }
+        });
+
+        if (translations.documentTitle) {
+          document.title = translations.documentTitle;
+        }
+
+        const locale = supportedLanguages[currentLanguage]?.locale || 'en';
+        document.documentElement.setAttribute('lang', locale);
+      }
+
+      function updateUrlParameter(lang) {
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', lang);
+        window.history.replaceState({}, '', url.toString());
+      }
+
+      function loadLanguage(lang, skipUrlUpdate = false) {
+        const languageKey = supportedLanguages[lang] ? lang : defaultLanguage;
+        const { file } = supportedLanguages[languageKey];
+        fetch(`assets/lang/${file}`)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`Unable to load language file: ${file}`);
+            }
+            return response.json();
+          })
+          .then((translations) => {
+            currentLanguage = languageKey;
+            localStorage.setItem('preferredLanguage', languageKey);
+            languageSelector.value = languageKey;
+            applyTranslations(translations);
+            if (!skipUrlUpdate) {
+              updateUrlParameter(languageKey);
+            }
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
+
+      const initialLanguageInfo = (function determineInitialLanguage() {
+        const params = new URLSearchParams(window.location.search);
+        const urlLanguage = params.get('lang');
+        if (urlLanguage && supportedLanguages[urlLanguage]) {
+          return { lang: urlLanguage, fromUrl: true };
+        }
+        const storedLanguage = localStorage.getItem('preferredLanguage');
+        if (storedLanguage && supportedLanguages[storedLanguage]) {
+          return { lang: storedLanguage, fromUrl: false };
+        }
+        return { lang: defaultLanguage, fromUrl: false };
+      })();
+
+      loadLanguage(initialLanguageInfo.lang, initialLanguageInfo.fromUrl);
+
+      languageSelector.addEventListener('change', (event) => {
+        const selectedLang = event.target.value;
+        loadLanguage(selectedLang);
+      });
+    })();
+  </script>
 </body>
 </html>
